@@ -1,0 +1,6 @@
+Author: Craig Tataryn (craiger@tataryn.net)
+Website: http://tataryn.net
+Description: Scala Language Tour presentation, and introduction to Scala primarily for Java Developers & other Object Oriented languages
+
+Note:
+To view the snippets, you can download "Kojo" from http://www.kogics.net/sf:kojo, however the files in the snippets directory are for the most part plain text and thus readable by the stock Scala REPL.
