@@ -15,10 +15,10 @@ object Person {
 
 /* 2.1  class call                      */
 val p = new Person("Pip", 22)
-p.vitalStats
+println(p.vitalStats)
 
 /* 2.2  object call                     */
-Person.vitalStats(p)
+println(Person.vitalStats(p))
 
 /* 3.1  apply                           */
 object Person {

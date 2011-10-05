@@ -50,7 +50,20 @@ transaction {
     true
 }
 
-//Show Spring Transaction Template to contrast
+
+/*
+transactionTemplate.execute(new TransactionCallbackWithoutResult() {
+
+    protected void doInTransactionWithoutResult(TransactionStatus status) {
+        try {
+            updateOperation1();
+            updateOperation2();
+        } catch (SomeBusinessExeption ex) {
+            status.setRollbackOnly();
+        }
+    }
+});
+*/
 
 /* even more practical, most likely your code will need access to a connection
 
