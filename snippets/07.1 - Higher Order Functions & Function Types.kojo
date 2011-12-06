@@ -19,9 +19,9 @@ def doSomething(c: Component): Boolean = {
 
 // 3    Pass doSomething in to onClick
 
-// 4    A more "natural" way: pass a code block in, remember c => { }
-//      This is called a by-name parameter
-// println("I'm an anonymous function executing on component: " + c.name)
+// 4    A more "natural" way: pass an anonymous function in
+
+// c => { println("I'm an anonymous function executing on component: " + c.name);true }
 
 // run the listeners
 comp.runListeners
